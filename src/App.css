@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.home{
+  width: 1200px;
+  height: auto;
+  border: 1px solid;
+  margin: 20px auto;
+}
+
+.searchInput{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+.searchInput input{
+  border: none;
+}
+
+.icons{
+  font-size: 30px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 60px;
+}
+.startEnd{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 70px;
+}
+
+.reklama1{
+  display: flex;
+  overflow: hidden;
+}
+.reklama2{
+  width: 96%;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.card_img{
+  width: 30px;
+
+}
+
+.cardshop11{
+  box-shadow: 0 0 10px black;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+
+
+.cardshop{
+  display: flex;
+  width: 500px;
+  box-shadow: 0 0 10px black;
+  margin: 20px auto;
+}
+.cardshop1{
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0 0 10px teal;
+}
+
+.soni{
+  display: flex;
+  flex-direction: row;
+}
