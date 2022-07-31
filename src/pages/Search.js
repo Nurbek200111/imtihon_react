@@ -113,6 +113,7 @@ export default function Search() {
   return (
     <>
         <div className="nav">
+            O'chirish kerak keyin
                     <div className="katagoriya">
                         <select onChange={(opt1) => select1(opt1.target.value)} name="select" id="">
                             <option  value="">all</option>
